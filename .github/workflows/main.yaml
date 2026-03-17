@@ -23,3 +23,7 @@ jobs:
 
       - name: Run tests
         run: pytest
+env:
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+  ANTROAI_API_KEY: ${{ secrets.ANTROAI_API_KEY }}
+  HUGGING_FACE_API_KEY: ${{ secrets.HUGGING_FACE_API_KEY }}
