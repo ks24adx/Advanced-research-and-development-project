@@ -1,7 +1,0 @@
-configutation files
-evaluation
-error validation
-dataset builder
-visualisation code
-rag module
-llm runner
