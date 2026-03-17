@@ -1,0 +1,6 @@
+All the data in csv format is added in this folder. 
+
+Top frequently asked question in medquad.csv file specifically to 'Breast Cancer' and 'Diabetics' is extracted to 'all_diabetes_and_breast_cancer_questions.csv'.
+The top 80 questions from all_diabetes_and_breast_cancer_questions.csv is filtered again added created as 'top_80_frequent_med_questions.csv.
+
+The top 104 question in legalQA legal_test.csv file specifically to 'Criminal law' and 'Family law' is extracted to 'all_criminal_and_family_qa.csv'
