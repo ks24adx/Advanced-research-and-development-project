@@ -1,0 +1,51 @@
+question_id,source_dataset,question,ground_truth_answer,closed_book_answer,open_book_answer,closed_book_correct,open_book_correct,supporting_facts_retrieved,error_type,error_subtype,cot_closed_correct,cot_open_correct,confidence_score_closed,confidence_score_open,num_hops_required,domain
+T001,Natural Questions,What is the capital of Canada?,Ottawa,Toronto,Ottawa,0,1,1,knowledge,factual_recall,0,1,0.58,0.93,1,geography
+T002,Natural Questions,Who wrote the play Hamlet?,William Shakespeare,William Shakespeare,William Shakespeare,1,1,1,none,none,1,1,0.99,0.99,1,literature
+T003,Natural Questions,What is the chemical symbol for sodium?,Na,Na,Na,1,1,1,none,none,1,1,0.99,0.99,1,science
+T004,Natural Questions,In what year did the French Revolution begin?,1789,1789,1789,1,1,1,none,none,1,1,0.97,0.99,1,history
+T005,Natural Questions,What is the tallest waterfall in the world?,Angel Falls,Victoria Falls,Angel Falls,0,1,1,knowledge,factual_recall,0,1,0.43,0.88,1,geography
+T006,Natural Questions,Who invented the World Wide Web?,Tim Berners-Lee,Tim Berners-Lee,Tim Berners-Lee,1,1,1,none,none,1,1,0.96,0.99,1,history
+T007,Natural Questions,How many symphonies did Beethoven compose?,9,9,9,1,1,1,none,none,1,1,0.95,0.99,1,art
+T008,Natural Questions,What is the largest continent by area?,Asia,Asia,Asia,1,1,1,none,none,1,1,0.99,0.99,1,geography
+T009,Natural Questions,What gas do plants absorb during photosynthesis?,Carbon dioxide,Carbon dioxide,Carbon dioxide,1,1,1,none,none,1,1,0.99,0.99,1,science
+T010,Natural Questions,Who is the author of the Divine Comedy?,Dante Alighieri,Dante Alighieri,Dante Alighieri,1,1,1,none,none,1,1,0.97,0.99,1,literature
+T011,Natural Questions,What is the smallest planet in the solar system?,Mercury,Pluto,Mercury,0,1,1,knowledge,outdated_info,1,1,0.62,0.95,1,science
+T012,Natural Questions,Which country invented paper?,China,Egypt,China,0,1,1,knowledge,factual_recall,0,1,0.39,0.87,1,history
+T013,Natural Questions,What is the powerhouse of the cell?,Mitochondria,Mitochondria,Mitochondria,1,1,1,none,none,1,1,0.99,0.99,1,science
+T014,Natural Questions,Who painted the Sistine Chapel ceiling?,Michelangelo,Michelangelo,Michelangelo,1,1,1,none,none,1,1,0.99,0.99,1,art
+T015,Natural Questions,What is the capital of Japan?,Tokyo,Tokyo,Tokyo,1,1,1,none,none,1,1,0.99,0.99,1,geography
+T016,TriviaQA,What is the longest bone in the human body?,Femur,Femur,Femur,1,1,1,none,none,1,1,0.97,0.99,1,science
+T017,TriviaQA,Which element has the symbol K?,Potassium,Potassium,Potassium,1,1,1,none,none,1,1,0.97,0.99,1,science
+T018,TriviaQA,What is the currency of India?,Indian Rupee,Indian Rupee,Indian Rupee,1,1,1,none,none,1,1,0.99,0.99,1,culture
+T019,TriviaQA,How many players are on a standard basketball team on the court?,5,5,5,1,1,1,none,none,1,1,0.99,0.99,1,culture
+T020,TriviaQA,Who wrote the novel Moby Dick?,Herman Melville,Herman Melville,Herman Melville,1,1,1,none,none,1,1,0.97,0.99,1,literature
+T021,TriviaQA,What is the second largest planet in our solar system?,Saturn,Jupiter,Saturn,0,1,1,knowledge,factual_recall,0,1,0.47,0.91,1,science
+T022,TriviaQA,What country is the Great Barrier Reef located in?,Australia,Australia,Australia,1,1,1,none,none,1,1,0.98,0.99,1,geography
+T023,TriviaQA,Who painted Starry Night?,Vincent van Gogh,Vincent van Gogh,Vincent van Gogh,1,1,1,none,none,1,1,0.99,0.99,1,art
+T024,TriviaQA,What is the capital of Germany?,Berlin,Berlin,Berlin,1,1,1,none,none,1,1,0.99,0.99,1,geography
+T025,TriviaQA,In what year did the Berlin Wall fall?,1989,1989,1989,1,1,1,none,none,1,1,0.98,0.99,1,history
+T026,TriviaQA,What is the most widely spoken language in Africa by number of speakers?,Arabic,Swahili,Arabic,0,1,1,knowledge,factual_recall,0,1,0.31,0.84,1,culture
+T027,TriviaQA,What is the atomic mass of oxygen (rounded)?,16,16,16,1,1,1,none,none,1,1,0.99,0.99,1,science
+T028,TriviaQA,What organ filters blood in the human body?,Kidneys,Liver,Kidneys,0,1,1,knowledge,factual_recall,1,1,0.68,0.96,1,science
+T029,TriviaQA,Who wrote the theory of evolution by natural selection?,Charles Darwin,Charles Darwin,Charles Darwin,1,1,1,none,none,1,1,0.99,0.99,1,science
+T030,TriviaQA,What is the largest ocean by area?,Pacific Ocean,Pacific Ocean,Pacific Ocean,1,1,1,none,none,1,1,0.99,0.99,1,geography
+T031,HotpotQA,What is the birthplace of the author who wrote the novel on which the film Schindler's List is based?,Nowra New South Wales Australia,Vienna Austria,Nowra New South Wales Australia,0,1,1,reasoning,multi_hop,0,1,0.17,0.71,2,culture
+T032,HotpotQA,What is the capital of the country that won the FIFA World Cup in 2018?,Paris,Moscow,Paris,0,1,1,reasoning,multi_hop,0,1,0.29,0.83,2,geography
+T033,HotpotQA,Who was the vice president of the United States when the first iPhone was released?,Dick Cheney,Al Gore,Dick Cheney,0,1,1,reasoning,multi_hop,0,1,0.26,0.79,2,history
+T034,HotpotQA,What is the nationality of the composer of the opera La Traviata?,Italian,German,Italian,0,1,1,reasoning,multi_hop,0,1,0.34,0.82,2,art
+T035,HotpotQA,In what city was the company founded that created the Windows operating system?,Albuquerque New Mexico,Seattle,Albuquerque New Mexico,0,1,0,reasoning,multi_hop,0,0,0.21,0.59,2,culture
+T036,HotpotQA,What language is spoken in the country where the Sahara Desert is largest in area?,Arabic,French,Arabic,0,1,1,reasoning,multi_hop,0,1,0.23,0.74,2,geography
+T037,HotpotQA,What is the name of the river that flows through the city where Shakespeare was born?,River Avon,River Thames,River Avon,0,1,1,reasoning,multi_hop,0,1,0.28,0.77,2,geography
+T038,HotpotQA,Who succeeded the US president who was in office during the Cuban Missile Crisis?,Lyndon B. Johnson,Robert Kennedy,Lyndon B. Johnson,0,1,1,reasoning,multi_hop,0,1,0.32,0.86,2,history
+T039,HotpotQA,What is the official language of the country where Machu Picchu is located?,Spanish,Quechua,Spanish,0,1,1,reasoning,multi_hop,0,1,0.41,0.88,2,culture
+T040,HotpotQA,What year was the painting technique used by the artist who painted The Persistence of Memory first developed?,1920s,1904,1920s,0,1,0,reasoning,multi_hop,0,0,0.12,0.51,3,art
+T041,HotpotQA,What country borders the nation where the Amazon River flows into the ocean?,French Guiana,Brazil,French Guiana,0,1,1,reasoning,multi_hop,0,1,0.19,0.68,2,geography
+T042,HotpotQA,Who was the prime minister of the UK when the European Union was formed as the EU under the Maastricht Treaty?,John Major,Margaret Thatcher,John Major,0,1,1,reasoning,multi_hop,0,1,0.27,0.78,2,history
+T043,HotpotQA,What is the hometown of the physicist who developed quantum electrodynamics and the bongo drums?,Far Rockaway New York,Los Alamos,Far Rockaway New York,0,1,1,reasoning,multi_hop,0,1,0.22,0.72,2,science
+T044,HotpotQA,What is the currency of the country where the headquarters of Interpol is based?,Euro,Swiss Franc,Euro,0,1,1,reasoning,multi_hop,0,1,0.31,0.81,2,culture
+T045,HotpotQA,How many Grand Slam titles had Serena Williams won when she won her last Grand Slam title?,23,21,23,0,1,1,reasoning,multi_hop,0,1,0.36,0.84,2,culture
+T046,Natural Questions,What is the formula for the area of a circle?,pi r squared,pi r squared,pi r squared,1,1,1,none,none,1,1,0.99,0.99,1,mathematics
+T047,Natural Questions,Who directed the movie Jurassic Park?,Steven Spielberg,Steven Spielberg,Steven Spielberg,1,1,1,none,none,1,1,0.98,0.99,1,culture
+T048,TriviaQA,What is the pH of pure water?,7,7,7,1,1,1,none,none,1,1,0.99,0.99,1,science
+T049,TriviaQA,In what year was the Magna Carta signed?,1215,1215,1215,1,1,1,none,none,1,1,0.97,0.99,1,history
+T050,HotpotQA,What is the name of the ocean that the Titanic was crossing when it sank?,Atlantic Ocean,Atlantic Ocean,Atlantic Ocean,1,1,1,none,none,1,1,0.96,0.99,1,history
